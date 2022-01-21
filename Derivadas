@@ -1,0 +1,10 @@
+import sympy
+from sympy import *
+x,y,z,t = sympy.symbols('x y z t')
+valor_func_x=input("digite a função que quer derivar em x ")
+deriv_x=diff(valor_func_x,x)
+valor_func_y=input("digite a função que quer derivar em y ")
+deriv_y=diff(valor_func_y,y)
+valor_func_z=input("digite a função que quer derivar em z ")
+deriv_z=diff(valor_func_z,z)
+print(deriv_x,"i", deriv_y,"j",deriv_z,"k")
