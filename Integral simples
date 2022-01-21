@@ -1,0 +1,7 @@
+from sympy import *
+init_printing()
+var('x')
+funcao=sin(x)
+r=integrate(funcao, x)
+print("A função é:", funcao)
+print("A intengral é: ", r)
